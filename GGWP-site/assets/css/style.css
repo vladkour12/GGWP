@@ -1,0 +1,64 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+</style>
+
+ body {
+  background-image: src=image(../img/header.jpg)
+  color: black;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  margin-top: 70px;
+}
+
+.centered {
+  text-align: center;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+.navbar {
+  font-weight: 600;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.navbar-inverse {
+  background: #C9C9C9;
+  border-color: #C9C9C9;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+  background-color: #C9C9C9;
+  color: black;
+}
+
+.navbar-inverse .navbar-brand {
+
+}
+.nav .navbar-nav {
+  background-color: white;
+}
+#headerwrap {
+  background: url(../img/header.jpg) no-repeat center top;
+  margin-top: -10px;
+  padding-top: 20px;
+  text-align: center;
+  background-attachment: relative;
+  background-position: center center;
+
+  background-size: 100%;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+
+}
