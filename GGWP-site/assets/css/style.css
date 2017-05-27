@@ -62,3 +62,8 @@ hr {
   -o-background-size: cover;
 
 }
+
+.controls {
+  text-align: center;
+  border-spacing:inherit;
+}

@@ -29,46 +29,59 @@
   </div>
 </nav>
 <div id="headerwrap">
-    <div class="container">
       <div class="row centered">
         <h1>Бланк Брака</h1>
         <h2>Заполните все поля и нажмите отправить!</h2>
       </div>
-    </div>
   </div>
-  <div align = "center">
-    <form name = "form1" action = "script/request.php" method = "get">
-      Ваше имя: <input type = "text" name = "firstname" value = "Тут Ваше имя">
-      <br>
-      Ваш пароль: <input type = "password" name = "pass" value = "Тут Ваш пароль">
-      <br>
-      Выберите вариант:
-      <select name = "choice">
-        <option value = "1">Вариант 1
-        <option value = "2">Вариант 2
-        <option value = "3">Вариант 3
-      </select>
-      <br>
-      Напишите что-нибудь:
-      <br>
-      <textarea name = "message" rows = "10" cols = "15">Сообщение</textarea>
-      <br>
-      Выберите что-нибудь одно:
-      <input type = "radio" name = "choiceradio" value = "1">Вариант 1
-      <input type = "radio" name = "choiceradio" value = "2">Вариант 2
-      <input type = "radio" name = "choiceradio" value = "3">Вариант 3
-      <br>
-      Вы согласны с нашими правилами:
-      <input type = "checkbox" name = "terms" value = "yes">
-      <br>
-      Выберите файл для загрузки:
-      <input type = "file" name = "path">
-      <br>
-      <input type = "button" name = "start" value = "Начать">
-      <br>
-      <input type = "submit" value = "Отправить">
-    </form>
+  <div class="controls">
+  <select>
+    <option>V.Jakovļevs</option>
+    <option>J.Jarovaja</option>
+    <option>J.Arčibasova</option>
+    <option>Dmitrijs</option>
+    <option>A.Snikers</option>
+  </select>
+    <input class="span5" type="text" placeholder=".span5">
   </div>
+  <div class="controls controls-row">
+    <input class="span4" type="text" placeholder=".span4">
+    <input class="span1" type="text" placeholder=".span1">
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+<!---
+<div class="container">
+  <form action="http://ab-w.net/comments.php" method="post" name="commentform" id="commentform">
+    <strong>Pardevējs</strong>
+    <p><select name="select" size="1">
+      <option value="s1">V.Jakovļevs</option>
+      <option value="s2">J.Jarovaja</option>
+      <option value="s3">J.Arčibasova</option>
+      <option value="s4">Dmitrijs</option>
+    </select>
+    <p><input type="text" name="author" id="author" value="" size="8" />
+      <strong>RMA</strong>
+    </p>
+    <p><input type="text" name="email" id="email" value="" size="25" />
+      <strong> Pardevējs</strong>
+    </p>
+    <p><textarea name="comment" id="comment" cols="48" rows="8"> </textarea>
+    </p>
+    <p><input name="submit" type="submit" id="submit" value="Отправить" />
+    </p>
+  </form>
+</div>
+-->
 
 
 
