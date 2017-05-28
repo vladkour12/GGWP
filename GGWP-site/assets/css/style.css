@@ -63,7 +63,9 @@ hr {
 
 }
 
-.controls {
-  text-align: center;
-  border-spacing:inherit;
-}
+#form {
+  position: absolute; /* Абсолютное позиционирование */
+    left: 300px; /* Положение от левого края */
+    right: -50px;
+    padding: 20px;
+    vertical-align: sub;
