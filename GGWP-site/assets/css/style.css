@@ -63,9 +63,10 @@ hr {
 
 }
 
-#form {
+form {
   position: absolute; /* Абсолютное позиционирование */
-    left: 300px; /* Положение от левого края */
+    left: 700px; /* Положение от левого края */
     right: -50px;
     padding: 20px;
     vertical-align: sub;
+}
