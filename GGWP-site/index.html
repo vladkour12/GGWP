@@ -35,10 +35,11 @@
       </div>
   </div>
 
-<form action="http://ab-w.net/comments.php" method="post" name="commentform" id="commentform">
+<form>
 <div class="row">
     <div class="col-xs-2">
-      <select class="form-control input-sm">
+      <strong>Pardevējs</strong>
+      <select class="form-control">
         <option value="n1">V.Jakovļevs</option>
         <option value="n2">J.Jarovaja</option>
         <option value="n3">J.Arčibasova</option>
@@ -47,17 +48,40 @@
       </select>
     </div>
     <div class="col-xs-2">
-      <input type="text" class="form-control input-sm" placeholder="RMA">
+      <strong>Veikals</strong>
+      <select class="form-control">
+        <option value="n1">Origo</option>
+        <option value="n2">Čaka</option>
+        <option value="n3">Merķeļa</option>
+        <option value="n4">Dole</option>
+      </select>
+    </div>
+    <div class="col-xs-2">
+      <strong>Pieprasijuma Nr.</strong>
+      <input type="text" class="form-control" placeholder="RMA">
     </div>
   </div>
   <br />
   <div class="row">
-    <div class="col-xs-2">
-      <input type="text" class="form-control input-sm" placeholder="Большой">
+    <div class="col-xs-4">
+      <strong>Iekārta</strong>
+      <input type="text" class="form-control" placeholder="Prece">
     </div>
     <div class="col-xs-2">
-      <input type="text" class="form-control input-sm" placeholder="Большой">
+      <strong>Cena</strong>
+      <input type="text" class="form-control" placeholder="Cena">
     </div>
+</div>
+<br />
+<div class="row">
+  <div class="col-xs-6">
+    <label for="comment">Defekta Apraksts</label>
+    <textarea class="form-control" rows="3" id="comment"></textarea>
+  </div>
+</div>
+<br />
+<div class="container">
+  <a href="#" class="btn btn-success btn-lg" role="send">Aizsūtīt</a>
 </div>
 </form>
 
