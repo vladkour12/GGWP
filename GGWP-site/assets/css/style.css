@@ -1,66 +1,36 @@
 <style>
-@import url('https://fonts.googleapis.com/css?family=Open+Sans|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
 </style>
 
  body {
-  background-image: src=image(../img/Untitled-2.png) no-repeat center top;
-  color: black;
-  font-family: 'Open Sans', sans-serif;
+  display: block;
+  background-color: #575757;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 300;
-  margin-top: 70px;
 }
 
-.centered {
-  text-align: center;
-}
-
-hr {
-  display: block;
-  height: 1px;
-  border: 0;
-  border-top: 1px solid #ccc;
-  margin: 1em 0;
-  padding: 0;
-}
-
-.navbar {
-  font-weight: 600;
-  font-size: 20px;
+li {
+  font-family: Source Sans Pro;
   padding-top: 10px;
-  padding-bottom: 10px;
+  font-weight: 400;
+  font-size: 20px;
 }
 
-.navbar-inverse {
-  background: white;
-  border-color: white;
-}
-
-.navbar-inverse .navbar-nav > .active > a {
-  background-color: #C9C9C9;
-  color: black;
-}
-
-.navbar-inverse .navbar-brand {
+#navbar {
+  padding-right: 70px;
 
 }
-.nav .navbar-nav {
-  background-color: white;
-}
-#headerwrap {
-  background: url(../img/header.jpg) no-repeat center top;
-  margin-top: -10px;
-  padding-top: 50px;
+.centered {
+  padding-top: 80px;
+  padding-left: 100px;
+  padding-right: 130px;
   text-align: center;
-  background-attachment: relative;
-  background-position: center center;
+}
 
-  background-size: 100%;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-
+.nav .navbar-nav  {
+  color: white;
 }
 
 form {
@@ -70,6 +40,6 @@ form {
     padding: 100px;
     text-align: center;
 }
-.container {
+#button {
   padding-right: 130px;
 }
