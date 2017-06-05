@@ -2,44 +2,21 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
 </style>
 
- body {
-  display: block;
-  background-color: #575757;
+body {
+  background-color: red;
   font-family: 'Raleway', sans-serif;
-  font-family: 'Source Sans Pro', sans-serif;
   font-size: 16px;
   font-weight: 300;
 }
 
-li {
-  font-family: Source Sans Pro;
-  padding-top: 10px;
-  font-weight: 400;
-  font-size: 20px;
-}
-
-#navbar {
-  padding-right: 70px;
-
-}
-.centered {
-  padding-top: 80px;
-  padding-left: 100px;
-  padding-right: 130px;
+.page-header {
   text-align: center;
 }
 
-.nav .navbar-nav  {
-  color: white;
-}
+.container {
+  margin:0px auto;
+  float: none;
+  padding-top: 30px;
+  padding-left: 270px;
 
-form {
-  position: absolute; /* Абсолютное позиционирование */
-    left: 570px; /* Положение от левого края */
-    right: -20px;
-    padding: 100px;
-    text-align: center;
-}
-#button {
-  padding-right: 130px;
 }

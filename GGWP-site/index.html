@@ -25,13 +25,14 @@
     </ul>
   </div>
 </nav>
-  <div class="centered">
+  <div class="page-header">
     <h1>Бланк Брака</h1>
     <h2>Заполните все поля и нажмите отправить!</h2>
   </div>
 <form>
-<div class="row">
-    <div class="col-xs-2">
+<div class="container">
+  <div class="row">
+    <div class="col-sm-3">
       <strong>Pardevējs</strong>
       <select class="form-control">
         <option value="n1">V.Jakovļevs</option>
@@ -41,7 +42,7 @@
         <option value="n5">A.Snikers</option>
       </select>
     </div>
-    <div class="col-xs-2">
+    <div class="col-sm-3">
       <strong>Veikals</strong>
       <select class="form-control">
         <option value="n1">Origo</option>
@@ -50,32 +51,44 @@
         <option value="n4">Dole</option>
       </select>
     </div>
-    <div class="col-xs-2">
+    <div class="col-sm-3">
       <strong>Pieprasijuma Nr.</strong>
       <input type="text" class="form-control" placeholder="RMA">
     </div>
   </div>
   <br />
   <div class="row">
-    <div class="col-xs-4">
-      <strong>Iekārta</strong>
-      <input type="text" class="form-control" placeholder="Prece">
+    <div class="col-sm-3">
+      <strong>Garantijas čeka Nr,</strong>
+      <input type="text" class="form-control" placeholder="Čeka Nr.">
     </div>
-    <div class="col-xs-2">
-      <strong>Cena</strong>
-      <input type="text" class="form-control" placeholder="Cena">
+    <div class="col-sm-3">
+      <strong>Čeka Datums</strong>
+      <input type="text" class="form-control" placeholder="Čeka Datums">
+    </div>
+    <div class="col-sm-3">
+      <strong> Iekārtas Cena</strong>
+      <input type="text" class="form-control" placeholder="Iekārtas Cena">
+    </div>
+</div>
+<br />
+  <div class="row">
+    <div class="col-sm-9">
+      <strong>Iekārta</strong>
+      <input type="text" class="form-control" placeholder="Preces Nosaukums">
     </div>
 </div>
 <br />
 <div class="row">
-  <div class="col-xs-6">
+  <div class="col-sm-9">
     <label for="comment">Defekta Apraksts</label>
     <textarea class="form-control" rows="3" id="comment"></textarea>
   </div>
 </div>
 <br />
-<div id="button">
-  <a href="#" class="btn btn-success btn-lg" role="send">Aizsūtīt</a>
+<div class="col-sm-9">
+  <button class="btn btn-primary btn-lg" role="submit">Aizsūtīt</button>
+</div>
 </div>
 </form>
 <script src="assets/js/jquery-3.2.1.min.js"></script>
