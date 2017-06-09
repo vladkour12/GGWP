@@ -11,6 +11,7 @@ body {
 
 .page-header {
   text-align: center;
+  padding-top: 30px;
 }
 
 .container {
@@ -19,4 +20,25 @@ body {
   padding-top: 30px;
   padding-left: 270px;
 
+}
+
+.logo-container {
+  position: inherit;
+  display: block;
+  padding-left: 750px;
+
+}
+
+.navbar-inverse {
+	background-color:#000000;
+  color:white;
+  border-radius:0;
+}
+
+.navbar-right {
+  font-size: 30px;
+  padding-top: 20px;
+  padding-right: 20px;
+  text-align: right;
+  color: white;
 }
