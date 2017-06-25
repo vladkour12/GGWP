@@ -432,7 +432,6 @@ p.change_link{
 	top: 1px;
 }
 /** Styling both forms **/
-#register,
 #login{
 	position: absolute;
 	top: 0px;
@@ -448,14 +447,10 @@ p.change_link{
 	-moz-border-radius: 5px;
 		 border-radius: 5px;
 }
-#register{
-	z-index: 21;
-	opacity: 0;
-}
+
 #login{
 	z-index: 22;
 }
-#toregister:target ~ #wrapper #register,
 #tologin:target ~ #wrapper #login{
 	-webkit-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.36);
 -moz-box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.36);
@@ -472,8 +467,7 @@ box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.36);
 	-ms-animation-delay: .1s;
 	animation-delay: .1s;
 }
-#toregister:target ~ #wrapper #login,
-#tologin:target ~ #wrapper #register{
+#toregister:target ~ #wrapper #login {
 	-webkit-animation-name: fadeOutLeft;
 	-moz-animation-name: fadeOutLeft;
 	-ms-animation-name: fadeOutLeft;
@@ -517,9 +511,7 @@ box-shadow: 0px 0px 30px 0px rgba(0,0,0,0.36);
 .lt8 #wrapper h1{
 	color: #066A75;
 }
-.lt8 #register{
-	display: none;
-}
+
 .lt8 p.change_link,
 .ie9 p.change_link{
 	position: absolute;
