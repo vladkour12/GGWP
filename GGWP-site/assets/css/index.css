@@ -2,23 +2,17 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
 </style>
 
-.section a {
+form {
 	color: white;
-	text-transform: uppercase;
-	text-decoration: none;
-	margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-
+	position: absolute;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 300px;
 }
-
-.btn{
-   height: 50px;
-   display:block;
-   position: inherit;
-   border: 5px solid white;
-   margin:0 auto; // отцентрирует блок по центру родительского элемента
-  }
+a {
+	color: white;
+	position: absolute;
+	margin-left: 100px;
+	margin-right: 100px;
+	margin-top: 300px;
+}
