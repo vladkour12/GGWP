@@ -1,0 +1,24 @@
+<style>
+@import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
+</style>
+
+.section a {
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+}
+
+.btn{
+   height: 50px;
+   display:block;
+   position: inherit;
+   border: 5px solid white;
+   margin:0 auto; // отцентрирует блок по центру родительского элемента
+  }
