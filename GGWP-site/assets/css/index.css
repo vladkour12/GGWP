@@ -2,17 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway|Source+Sans+Pro');
 </style>
 
-form {
-	color: white;
-	position: absolute;
-	margin-left: 100px;
-	margin-right: 100px;
+.container {
 	margin-top: 300px;
 }
+
 a {
-	color: white;
-	position: absolute;
-	margin-left: 100px;
-	margin-right: 100px;
+	text-align: center;
+}
+
+body {
 	margin-top: 300px;
 }
